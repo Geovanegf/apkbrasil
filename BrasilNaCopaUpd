@@ -121,7 +121,7 @@
       "ProxyIP": "104.17.73.206",
       "ProxyPort": "80",
       "Info": "Proxy"
-    }
+    },
     {
       "Name": "PROXY | EASY | 08",
       "FLAG": "vivo",
@@ -165,7 +165,7 @@
     {
       "Name": "TLS | GERAL",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET wss://bam.nr-data.net HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "bam.nr-data.net",
       "TlsIP": "162.247.241.14",
       "ProxyIP": "",
@@ -173,21 +173,11 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TLS | GERAL | 01",
+      "Name": "TIM | BRASIL GERAL ON | 01",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET wss://bam.nr-data.net HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "bam.nr-data.net",
       "TlsIP": "162.247.241.14",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "TLS | DDDS | 02",
-      "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "builder.lift.acquia.com",
-      "TlsIP": "builder.lift.acquia.com",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
@@ -203,21 +193,11 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TLS | 01",
-      "FLAG": "tim",
-      "Payload": "GET wss://www.alura.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "www.alura.com.br",
-      "TlsIP": "172.67.188.168",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
       "Name": "TLS | 02",
       "FLAG": "tim",
       "Payload": "GET wss://api-tim.oston.io/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "api-tim.oston.io",
-      "TlsIP": "104.21.58.67",
+      "TlsIP": "api-tim.oston.io",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
@@ -231,16 +211,6 @@
       "ProxyIP": "bam.nr-data.net",
       "ProxyPort": "443",
       "Info": "Tlsws"
-    },
-    { 
-      "Name": "TLS | 36", 
-      "FLAG": "tim", 
-      "Payload": "GET wss://www.alura.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
-      "SNI": "www.alura.com.br", 
-      "TlsIP": "104.18.40.41", 
-      "ProxyIP": "", 
-      "ProxyPort": "443", 
-      "Info": "Tlsws" 
     },
     { 
       "Name": "TLS | BRASIL ONLINE | 37", 

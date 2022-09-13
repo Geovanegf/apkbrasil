@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.1",
+  "Version": "1.0.2",
   "ReleaseNotes": "EVITAR ERROS MANTENHAM O APLICATIVOATUALIZADO",
   "UrlUpdate": "https://raw.githubusercontent.com/Geovanegf/apkbrasil/main/BrasilNaCopaUpd",
   "Sms": "https://raw.githubusercontent.com/Geovanegf/SmsApkBrasil/main/SmsBrasilNaCopa",
@@ -143,11 +143,11 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TLS | POR REGIÕES | 03",
+      "Name": "TLS | POR REGIÕES🔵 | 03",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "cdn-prod.securiti.ai",
-      "TlsIP": "cdn-prod.securiti.ai",
+      "Payload": "GET wss://js-agent.newrelic.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "js-agent.newrelic.com",
+      "TlsIP": "162.247.241.14",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"

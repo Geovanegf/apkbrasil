@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.5",
+  "Version": "1.0.6",
   "ReleaseNotes": "EVITAR ERROS MANTENHAM O APLICATIVOATUALIZADO",
   "UrlUpdate": "https://raw.githubusercontent.com/Geovanegf/apkbrasil/main/BrasilNaCopaUpd",
   "Sms": "https://raw.githubusercontent.com/Geovanegf/SmsApkBrasil/main/SmsBrasilNaCopa",
@@ -43,14 +43,14 @@
       "Info": "Proxy"
     },
     {
-      "Name": "🇧🇷VIVO SEM PLANO ESTÁVEL 03",
+      "Name": "🇧🇷VIVO SEM PLANO ESTÁVEL SSL",
       "FLAG": "vivo",
-      "Payload": "GET wss://protecao.vivo.com.br HTTP/1.1[crlf]Host: brasil2.lanet.host[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET wss://protecao.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "protecao.vivo.com.br",
       "TlsIP": "104.18.7.80",
       "ProxyIP": "",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "ProxyPort": "443",
+      "Info": "Tlsws"
     },
     {
       "Name": "🇧🇷VIVO RÁPIDA | DDS | 01",
@@ -83,14 +83,14 @@
       "Info": "Proxy"
     },
     {
-      "Name": "PROXY | EASY | 05",
+      "Name": "PROXY | EASY SSL | 05",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.18.6.80",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "SNI": "protecao.vivo.com.br",
+      "TlsIP": "104.18.7.80",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
     },
     {
       "Name": "🇧🇷VIVO RAPIDA SEM PLANO 08",

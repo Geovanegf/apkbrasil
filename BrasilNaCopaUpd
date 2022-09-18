@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.3",
+  "Version": "1.0.4",
   "ReleaseNotes": "EVITAR ERROS MANTENHAM O APLICATIVOATUALIZADO",
   "UrlUpdate": "https://raw.githubusercontent.com/Geovanegf/apkbrasil/main/BrasilNaCopaUpd",
   "Sms": "https://raw.githubusercontent.com/Geovanegf/SmsApkBrasil/main/SmsBrasilNaCopa",
@@ -43,22 +43,22 @@
       "Info": "Proxy"
     },
     {
-      "Name": "VIVO | SEM PLANO ON-LINE | 03",
+      "Name": "🇧🇷VIVO SEM PLANO ESTÁVEL 03",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3d2putsv8fsxo.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "13.249.39.116",
+      "Payload": "GET / HTTP/1.1[crlf]Host: brasil2.lanet.host[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "protecao.vivo.com.br",
+      "TlsIP": "104.18.7.80",
+      "ProxyIP": "",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
     {
-      "Name": "PROXY | PLANO EASY ON | 01",
+      "Name": "🇧🇷VIVO RÁPIDA | DDS | 01",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.0[lf]Host: [app_host][lf]Upgrade: websocket[lf]Connection: Keep-Alive\nUser-Agent: [ua]\nReferer: [lf][lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.7.80",
+      "ProxyIP": "104.18.6.80",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -78,7 +78,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.17.70.206",
+      "ProxyIP": "104.18.7.80",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -88,27 +88,17 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.17.72.206",
+      "ProxyIP": "104.18.6.80",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
     {
-      "Name": "PROXY | EASY | 08",
+      "Name": "🇧🇷VIVO RAPIDA SEM PLANO 08",
       "FLAG": "vivo",
       "Payload": "GET /? HTTP/1.1 [crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "172.67.165.43",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "PROXY | EASY | 09",
-      "FLAG": "vivo",
-      "Payload": "GET /? HTTP/1.1 [crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.126.175",
+      "ProxyIP": "104.18.7.80",
       "ProxyPort": "80",
       "Info": "Proxy"
     },

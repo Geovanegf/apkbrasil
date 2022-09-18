@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.4",
+  "Version": "1.0.5",
   "ReleaseNotes": "EVITAR ERROS MANTENHAM O APLICATIVOATUALIZADO",
   "UrlUpdate": "https://raw.githubusercontent.com/Geovanegf/apkbrasil/main/BrasilNaCopaUpd",
   "Sms": "https://raw.githubusercontent.com/Geovanegf/SmsApkBrasil/main/SmsBrasilNaCopa",
@@ -45,7 +45,7 @@
     {
       "Name": "🇧🇷VIVO SEM PLANO ESTÁVEL 03",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: brasil2.lanet.host[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET wss://protecao.vivo.com.br HTTP/1.1[crlf]Host: brasil2.lanet.host[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "protecao.vivo.com.br",
       "TlsIP": "104.18.7.80",
       "ProxyIP": "",

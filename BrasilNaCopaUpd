@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.6",
+  "Version": "1.0.7",
   "ReleaseNotes": "EVITAR ERROS MANTENHAM O APLICATIVOATUALIZADO",
   "UrlUpdate": "https://raw.githubusercontent.com/Geovanegf/apkbrasil/main/BrasilNaCopaUpd",
   "Sms": "https://raw.githubusercontent.com/Geovanegf/SmsApkBrasil/main/SmsBrasilNaCopa",
@@ -113,7 +113,17 @@
       "Info": "Proxy"
     },
     {
-      "Name": "TLS | GERAL",
+      "Name": "🔵CHIP ATIVO C6",
+      "FLAG": "tim",
+      "Payload": "GET wss://ajuda.c6bank.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "ajuda.c6bank.com.br",
+      "TlsIP": "104.16.236.16",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🔵TIM REGIÕES BAM",
       "FLAG": "tim",
       "Payload": "GET wss://bam.nr-data.net HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "bam.nr-data.net",
@@ -123,54 +133,34 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM | BRASIL GERAL ON | 01",
+      "Name": "🔵TIM PARA CHIP VALIDO IM",
       "FLAG": "tim",
-      "Payload": "GET wss://bam.nr-data.net HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "bam.nr-data.net",
-      "TlsIP": "162.247.241.14",
+      "Payload": "GET wss://image.mail.c6bank.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "image.mail.c6bank.com.br",
+      "TlsIP": "104.16.237.16",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
-      "Name": "TLS | POR REGIÕES🔵 | 03",
+      "Name": "🔵MODO AVIAO✈",
       "FLAG": "tim",
-      "Payload": "GET wss://js-agent.newrelic.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "js-agent.newrelic.com",
-      "TlsIP": "162.247.241.14",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "TLS | 02",
-      "FLAG": "tim",
-      "Payload": "GET wss://api-tim.oston.io/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "api-tim.oston.io",
-      "TlsIP": "api-tim.oston.io",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "TLS | APN IPV4 | 04",
-      "FLAG": "tim",
-      "Payload": "GET wss://bam.nr-data.net/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "bam.nr-data.net",
-      "TlsIP": "bam.nr-data.net",
-      "ProxyIP": "bam.nr-data.net",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
+      "Payload": "HTTP/ [crlf][crlf]|[crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "209.14.68.187",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     },
     { 
-      "Name": "TLS | BRASIL ONLINE | 37", 
+      "Name": "🔵TIM DDDS MODO AVIAO✈", 
       "FLAG": "tim", 
-      "Payload": "GET wss://bam.nr-data.net/ HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]", 
-      "SNI": "bam.nr-data.net", 
-      "TlsIP": "162.247.241.14", 
-      "ProxyIP": "", 
-      "ProxyPort": "443", 
-      "Info": "Tlsws" 
+      "Payload": "HTTP/ \n\n|\n", 
+      "SNI": "", 
+      "TlsIP": "", 
+      "ProxyIP": "209.14.68.187", 
+      "ProxyPort": "80", 
+      "Info": "Proxy" 
     },
     {
       "Name": "10/10 | BRASIL GERAL | 01",

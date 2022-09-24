@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.7",
+  "Version": "1.0.8",
   "ReleaseNotes": "EVITAR ERROS MANTENHAM O APLICATIVOATUALIZADO",
   "UrlUpdate": "https://raw.githubusercontent.com/Geovanegf/apkbrasil/main/BrasilNaCopaUpd",
   "Sms": "https://raw.githubusercontent.com/Geovanegf/SmsApkBrasil/main/SmsBrasilNaCopa",
@@ -22,26 +22,6 @@
     },
   ],
   "Networks": [
-    {
-      "Name": "PROXY | GERAL SEM PROMOÇÃO | 01",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3d2putsv8fsxo.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "13.227.126.42",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "VIVO | SEM PROMOÇÃO ON | 02",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3d2putsv8fsxo.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "65.8.214.58",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
     {
       "Name": "🇧🇷VIVO SEM PLANO ESTÁVEL SSL",
       "FLAG": "vivo",
@@ -95,7 +75,7 @@
     {
       "Name": "🇧🇷VIVO RAPIDA SEM PLANO 08",
       "FLAG": "vivo",
-      "Payload": "GET /? HTTP/1.1 [crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.7.80",
@@ -123,11 +103,11 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🔵TIM REGIÕES BAM",
+      "Name": "🔵TIM | GOCACHE EX️🇧🇷",
       "FLAG": "tim",
-      "Payload": "GET wss://bam.nr-data.net HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "bam.nr-data.net",
-      "TlsIP": "162.247.241.14",
+      "Payload": "GET / HTTP/1.1[crlf]Host: gocache1.lanet.host[crlf]Upgrade: websocket[crlf]Connection: upgrade[crlf][crlf]",
+      "SNI": "cursolivre.ampli.com.br",
+      "TlsIP": "170.82.173.30",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
@@ -143,14 +123,14 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🔵MODO AVIAO✈",
+      "Name": "🔵TIM | BRASIL NA COPA🇧🇷",
       "FLAG": "tim",
-      "Payload": "HTTP/ [crlf][crlf]|[crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "209.14.68.187",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "Payload": "GET / HTTP/1.1[crlf]Host: gocache1.lanet.host[crlf]Upgrade: websocket[crlf]Connection: upgrade[crlf][crlf]",
+      "SNI": "cursolivre.ampli.com.br",
+      "TlsIP": "170.82.174.30",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
     },
     { 
       "Name": "🔵TIM DDDS MODO AVIAO✈", 

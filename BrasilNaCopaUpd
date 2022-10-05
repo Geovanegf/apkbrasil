@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.11",
+  "Version": "1.0.12",
   "ReleaseNotes": "EVITAR ERROS MANTENHAM O APLICATIVOATUALIZADO",
   "UrlUpdate": "https://raw.githubusercontent.com/Geovanegf/apkbrasil/main/BrasilNaCopaUpd",
   "Sms": "https://raw.githubusercontent.com/Geovanegf/SmsApkBrasil/main/SmsBrasilNaCopa",
@@ -93,6 +93,16 @@
       "Info": "Tlsws"
     },
     {
+      "Name": "🔵TIM | FLASH 05/10",
+      "FLAG": "tim",
+      "Payload": "GET wss://helpypro.stoodi.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "helpypro.stoodi.com.br",
+      "TlsIP": "104.16.53.111",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
       "Name": "🔵TIM PARA CHIP VALIDO IM",
       "FLAG": "tim",
       "Payload": "GET wss://image.mail.c6bank.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
@@ -113,21 +123,21 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🔴CLARO CDN",
+      "Name": "🔴CLARO REGIÕES ON",
       "FLAG": "claro",
-      "Payload": "GET wss://cdnclaro2.wooza.com.br HTTP/1.1[crlf]Host: gocache1.lanet.host[crlf]Upgrade: websocket[crlf]Connection: upgrade[crlf][crlf]",
-      "SNI": "cdnclaro2.wooza.com.br",
-      "TlsIP": "170.82.173.30",
+      "Payload": "GET wss://Atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: upgrade[crlf][crlf]",
+      "SNI": "Atendimento.descomplica.com.br",
+      "TlsIP": "104.16.53.111",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
-      "Name": "🔴CLARO",
+      "Name": "🔴CLARO DDDS ON 05/10",
       "FLAG": "claro",
-      "Payload": "GET / HTTP/1.1[crlf]Host: gocache1.lanet.host[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "cdnclaro2.wooza.com.br",
-      "TlsIP": "170.82.174.30",
+      "Payload": "GET wss://Atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: upgrade[crlf][crlf]",
+      "SNI": "Atendimento.descomplica.com.br",
+      "TlsIP": "104.16.51.111",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"

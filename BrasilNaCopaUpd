@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.14",
+  "Version": "1.0.15",
   "ReleaseNotes": "EVITAR ERROS MANTENHAM O APLICATIVOATUALIZADO",
   "UrlUpdate": "https://raw.githubusercontent.com/Geovanegf/apkbrasil/main/BrasilNaCopaUpd",
   "Sms": "https://raw.githubusercontent.com/Geovanegf/SmsApkBrasil/main/SmsBrasilNaCopa",
@@ -53,24 +53,24 @@
       "Info": "Proxy"
     },
     {
-      "Name": "VIVO FLASH 🇧🇷",
+      "Name": "algumas regiões 26|10",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.51.111",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "Payload": "GET wss://support.deezer.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "support.deezer.com",
+      "TlsIP": "support.deezer.com",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
     },
     {
-      "Name": "🇧🇷VIVO RAPIDA SEM PLANO 08",
+      "Name": "alguns ddds 26|10",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.18.7.80",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "Payload": "GET wss://support.deezer.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "support.deezer.com",
+      "TlsIP": "104.16.53.111",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
     },
     {
       "Name": "🔵TIM API 18|10",

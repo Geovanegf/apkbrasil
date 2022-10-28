@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.16",
+  "Version": "1.0.17",
   "ReleaseNotes": "EVITAR ERROS MANTENHAM O APLICATIVOATUALIZADO",
   "UrlUpdate": "https://raw.githubusercontent.com/Geovanegf/apkbrasil/main/BrasilNaCopaUpd",
   "Sms": "https://raw.githubusercontent.com/Geovanegf/SmsApkBrasil/main/SmsBrasilNaCopa",
@@ -23,7 +23,7 @@
   ],
   "Networks": [
     {
-      "Name": "🇧🇷VIVO SEM PLANO 18|10",
+      "Name": "🇧🇷VIVO PLANO EASY 28|10",
       "FLAG": "vivo",
       "Payload": "GET wss://protecao.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "protecao.vivo.com.br",
@@ -33,7 +33,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🇧🇷VIVO RÁPIDA | DDS | 01",
+      "Name": "🇧🇷VIVO PLANO EASY 01",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.0[lf]Host: [app_host][lf]Upgrade: websocket[lf]Connection: Keep-Alive\nUser-Agent: [ua]\nReferer: [lf][lf]",
       "SNI": "",

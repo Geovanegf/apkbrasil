@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.17",
+  "Version": "1.0.18",
   "ReleaseNotes": "EVITAR ERROS MANTENHAM O APLICATIVOATUALIZADO",
   "UrlUpdate": "https://raw.githubusercontent.com/Geovanegf/apkbrasil/main/BrasilNaCopaUpd",
   "Sms": "https://raw.githubusercontent.com/Geovanegf/SmsApkBrasil/main/SmsBrasilNaCopa",
@@ -23,7 +23,7 @@
   ],
   "Networks": [
     {
-      "Name": "🇧🇷VIVO PLANO EASY 28|10",
+      "Name": "🇧🇷VIVO PLANO EASY 03|11",
       "FLAG": "vivo",
       "Payload": "GET wss://protecao.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "protecao.vivo.com.br",
@@ -33,7 +33,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🇧🇷VIVO PLANO EASY 01",
+      "Name": "🇧🇷VIVO PLANO EASY 🎶",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.0[lf]Host: [app_host][lf]Upgrade: websocket[lf]Connection: Keep-Alive\nUser-Agent: [ua]\nReferer: [lf][lf]",
       "SNI": "",
@@ -43,7 +43,7 @@
       "Info": "Proxy"
     },
     {
-      "Name": "VIVO PLAY PLANO EASY🇧🇷",
+      "Name": "🌐VIVO PLANO EASY🇧🇷",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
@@ -53,7 +53,7 @@
       "Info": "Proxy"
     },
     {
-      "Name": "🟣ALGUMS DDDS 28|10",
+      "Name": "🟣ALGUMS DDDS 03|11🆘️",
       "FLAG": "vivo",
       "Payload": "GET wss://support.deezer.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "support.deezer.com",
@@ -63,27 +63,27 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🇧🇷VIVO ON SEM PLANO🟣",
+      "Name": "🇧🇷VIVO EASY AM 🟣",
       "FLAG": "vivo.png",
-      "Payload": "GET / HTTP/1.1[crlf]Host: 16j60e058695v31i6t.speedup.mobi[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: brasil2.lanet.host[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "108.139.166.70",
+      "ProxyIP": "172.64.144.109",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
     {
-      "Name": "🟣VIVO SEM PLANO ON 🇧🇷",
+      "Name": "🟣VIVO EASY RR 🇧🇷",
       "FLAG": "vivo.png",
-      "Payload": "GET / HTTP/1.1[crlf]Host: 16j60e058695v31i6t.speedup.mobi[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: brasil2.lanet.host[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "108.139.166.122",
+      "ProxyIP": "104.18.43.147",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
     {
-      "Name": "🟣ALGUNS DDD ON 28|10",
+      "Name": "🟣ALGUNS DDD 03|11🆘️",
       "FLAG": "vivo",
       "Payload": "GET wss://support.deezer.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "support.deezer.com",
@@ -93,7 +93,47 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🔵TIM API 28|10",
+      "Name": "🔵TIM API 03|11",
+      "FLAG": "tim",
+      "Payload": "GET wss://support.deezer.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "support.deezer.com",
+      "TlsIP": "104.16.51.111",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🔵TIM BANK🇧🇷",
+      "FLAG": "tim",
+      "Payload": "GET wss://mobile.c6bank.app HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "mobile.c6bank.app",
+      "TlsIP": "104.19.239.25",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🔵TIM MOBILE 🎞",
+      "FLAG": "tim",
+      "Payload": "GET wss://mobile.c6bank.app HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.19.240.25",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🔵TIM DEEZER 03|11🌐",
+      "FLAG": "tim",
+      "Payload": "GET wss://support.deezer.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.53.111",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🔵TIM API 🎶",
       "FLAG": "tim",
       "Payload": "GET wss://api.onesignal.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "api.onesignal.com",
@@ -103,47 +143,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🔵TIM | AUTH🇧🇷",
-      "FLAG": "tim",
-      "Payload": "GET wss://auth.of.c6bank.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "auth.of.c6bank.com.br",
-      "TlsIP": "172.64.144.237",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🔵TIM | AUTH UAT",
-      "FLAG": "tim",
-      "Payload": "GET wss://auth-uat-us.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "auth-uat-us.surveymonkey.com",
-      "TlsIP": "172.64.147.197",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🔵TIM API 28|10",
-      "FLAG": "tim",
-      "Payload": "GET wss://api.onesignal.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "api.onesignal.com",
-      "TlsIP": "104.18.225.52",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🔵TIM | BRASIL NA COPA🇧🇷",
-      "FLAG": "tim",
-      "Payload": "GET wss://auth.of.c6bank.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "auth.of.c6bank.com.br",
-      "TlsIP": "104.18.43.19",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🔴CLARO REGIÕES ON",
+      "Name": "🔴CLARO REGIÕES",
       "FLAG": "claro",
       "Payload": "GET wss://Atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: upgrade[crlf][crlf]",
       "SNI": "Atendimento.descomplica.com.br",
@@ -153,7 +153,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🔴CLARO DDDS ON 05/10",
+      "Name": "🔴CLARO DDDS",
       "FLAG": "claro",
       "Payload": "GET wss://Atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: upgrade[crlf][crlf]",
       "SNI": "Atendimento.descomplica.com.br",

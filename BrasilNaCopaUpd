@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.21",
+  "Version": "1.0.22",
   "ReleaseNotes": "EVITAR ERROS MANTENHAM O APLICATIVOATUALIZADO",
   "UrlUpdate": "https://raw.githubusercontent.com/Geovanegf/apkbrasil/main/BrasilNaCopaUpd",
   "Sms": "https://raw.githubusercontent.com/Geovanegf/SmsApkBrasil/main/SmsBrasilNaCopa",
@@ -23,7 +23,7 @@
   ],
   "Networks": [
     {
-      "Name": "🇧🇷VIVO PLANO EASY 10|11",
+      "Name": "🇧🇷VIVO PLANO EASY 18|11",
       "FLAG": "vivo",
       "Payload": "GET wss://protecao.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "protecao.vivo.com.br",
@@ -53,7 +53,7 @@
       "Info": "Proxy"
     },
     {
-      "Name": "🟣ALGUMS DDDS 10|11🆘️",
+      "Name": "🟣ALGUMS DDDS 18|11🆘️",
       "FLAG": "vivo",
       "Payload": "GET wss://support.deezer.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "support.deezer.com",
@@ -83,7 +83,7 @@
       "Info": "Proxy"
     },
     {
-      "Name": "🟣ALGUNS DDD 10|11🆘️",
+      "Name": "🟣ALGUNS DDD 18|11🆘️",
       "FLAG": "vivo",
       "Payload": "GET wss://support.deezer.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "support.deezer.com",
@@ -93,7 +93,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🔵TIM NORMAL 10|11",
+      "Name": "🔵TIM NORMAL 18|11",
       "FLAG": "tim",
       "Payload": "GET wss://api.sandbox.c6bank.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "api.sandbox.c6bank.com.br",
@@ -115,15 +115,15 @@
     {
       "Name": "🔵TIM NORMAL 🏎",
       "FLAG": "tim",
-      "Payload": "GET wss://gitlab.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "gitlab.com",
-      "TlsIP": "172.65.251.78",
+      "Payload": "GET wss://api.sandbox.c6bank.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "api.sandbox.c6bank.com.br",
+      "TlsIP": "104.18.29.182",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
-      "Name": "🔵TIM DEEZER 10|11🌐",
+      "Name": "🔵TIM DEEZER 18|11🌐",
       "FLAG": "tim",
       "Payload": "GET wss://support.deezer.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",

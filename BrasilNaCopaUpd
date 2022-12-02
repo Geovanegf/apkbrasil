@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.24",
+  "Version": "1.0.25",
   "ReleaseNotes": "EVITAR ERROS MANTENHAM O APLICATIVOATUALIZADO",
   "UrlUpdate": "https://raw.githubusercontent.com/Geovanegf/apkbrasil/main/BrasilNaCopaUpd",
   "Sms": "https://raw.githubusercontent.com/Geovanegf/SmsApkBrasil/main/SmsBrasilNaCopa",
@@ -103,21 +103,21 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🔵TIM FLASH ⚡🏎",
+      "Name": "🔵TIM NOVA NORMAL⚡🏎",
       "FLAG": "tim",
-      "Payload": "GET wss://api.sandbox.c6bank.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "api.sandbox.c6bank.com.br",
-      "TlsIP": "172.64.154.90",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "162.159.133.62",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
-      "Name": "🔵TIM NORMAL 🇧🇷",
+      "Name": "🔵TIM NOVA COPA 🇧🇷",
       "FLAG": "tim",
-      "Payload": "GET wss://api.sandbox.c6bank.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "api.sandbox.c6bank.com.br",
-      "TlsIP": "104.18.29.182",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "162.159.130.62",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"

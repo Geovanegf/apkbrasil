@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.28",
+  "Version": "1.0.29",
   "ReleaseNotes": "EVITAR ERROS MANTENHAM O APLICATIVOATUALIZADO",
   "UrlUpdate": "https://raw.githubusercontent.com/Geovanegf/apkbrasil/main/BrasilNaCopaUpd",
   "Sms": "https://raw.githubusercontent.com/Geovanegf/SmsApkBrasil/main/SmsBrasilNaCopa",
@@ -93,14 +93,14 @@
       "Info": "Proxy"
     },
     {
-      "Name": "🔵TIM ONLINE 07|12⚡",
+      "Name": "🔵TIM ONLINE NOVA 07|12⚡",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: 93nq96660467of1t14.speedup.mobi[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "18.64.174.27",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "Payload": "BASELINE-CONTROL wss://cardinalcommerce.com/ HTTP/1.1[crlf]Host: brasil2.lanet.host[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "cardinalcommerce.com",
+      "TlsIP": "198.217.251.250",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
     },
     {
       "Name": "🔵TIM ONLINE",
@@ -113,29 +113,29 @@
       "Info": "Proxy"
     },
     {
-      "Name": "🔵TIM NOVA CARDI 🇧🇷",
+      "Name": "🔵TIM NORMAL NOVA",
       "FLAG": "tim",
-      "Payload": "GET wss://songbird.cardinalcommerce.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "songbird.cardinalcommerce.com",
+      "Payload": "BASELINE-CONTROL wss://cardinalcommerce.com/ HTTP/1.1[crlf]Host: brasil2.lanet.host[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "cardinalcommerce.com",
       "TlsIP": "198.217.251.250",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
-      "Name": "🔵TIM DEEZER🌐",
+      "Name": "🔵TIM NOVA FLASH🌐",
       "FLAG": "tim",
-      "Payload": "GET wss://support.deezer.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.53.111",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "Payload": "BASELINE-CONTROL wss://cardinalcommerce.com/ HTTP/1.1[crlf]Host: brasil2.lanet.host[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "cardinalcommerce.com",
+      "TlsIP": "198.217.251.251",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
     },
     {
       "Name": "🔵TIM API 🎶",
       "FLAG": "tim",
-      "Payload": "GET wss://api.onesignal.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "BASELINE-CONTROL wss://api.onesignal.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "api.onesignal.com",
       "TlsIP": "104.18.225.52",
       "ProxyIP": "",

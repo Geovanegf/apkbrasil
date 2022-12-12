@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.29",
+  "Version": "1.0.30",
   "ReleaseNotes": "EVITAR ERROS MANTENHAM O APLICATIVOATUALIZADO",
   "UrlUpdate": "https://raw.githubusercontent.com/Geovanegf/apkbrasil/main/BrasilNaCopaUpd",
   "Sms": "https://raw.githubusercontent.com/Geovanegf/SmsApkBrasil/main/SmsBrasilNaCopa",
@@ -23,7 +23,7 @@
   ],
   "Networks": [
     {
-      "Name": "🌐VIVO PLANO EASY🇧🇷",
+      "Name": "🌐VIVO PLANO EASY 12|12🟣",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
@@ -83,7 +83,7 @@
       "Info": "Proxy"
     },
     {
-      "Name": "🟣VIVO NORMAL ON🆘️",
+      "Name": "🟣VIVO NORMAL🆘️",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
@@ -93,11 +93,11 @@
       "Info": "Proxy"
     },
     {
-      "Name": "🔵TIM ONLINE NOVA 07|12⚡",
+      "Name": "🔵TIM ONLINE 12|12⚡",
       "FLAG": "tim",
-      "Payload": "BASELINE-CONTROL wss://cardinalcommerce.com/ HTTP/1.1[crlf]Host: brasil2.lanet.host[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "cardinalcommerce.com",
-      "TlsIP": "198.217.251.250",
+      "Payload": "BASELINE-CONTROL wss://api.sandbox.c6bank.com.br/ HTTP/1.1[crlf]Host: brasil2.lanet.host[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "api.sandbox.c6bank.com.br",
+      "TlsIP": "104.18.29.182",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
@@ -105,19 +105,9 @@
     {
       "Name": "🔵TIM ONLINE",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: 93nq96660467of1t14.speedup.mobi[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "18.64.174.27",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "🔵TIM NORMAL NOVA",
-      "FLAG": "tim",
-      "Payload": "BASELINE-CONTROL wss://cardinalcommerce.com/ HTTP/1.1[crlf]Host: brasil2.lanet.host[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "cardinalcommerce.com",
-      "TlsIP": "198.217.251.250",
+      "Payload": "BASELINE-CONTROL wss://api.sandbox.c6bank.com.br/ HTTP/1.1[crlf]Host: brasil2.lanet.host[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "api.sandbox.c6bank.com.br",
+      "TlsIP": "104.18.29.182",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"

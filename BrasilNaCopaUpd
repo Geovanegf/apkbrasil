@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.32",
+  "Version": "1.0.33",
   "ReleaseNotes": "EVITAR ERROS MANTENHAM O APLICATIVOATUALIZADO",
   "UrlUpdate": "https://raw.githubusercontent.com/Geovanegf/apkbrasil/main/BrasilNaCopaUpd",
   "Sms": "https://raw.githubusercontent.com/Geovanegf/SmsApkBrasil/main/SmsBrasilNaCopa",
@@ -14,7 +14,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "brasil2.lanet.host",
-      "CheckUser": "http://209.14.68.187:5454/checkUser",
+      "CheckUser": "http://144.22.174.248:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -23,12 +23,12 @@
   ],
   "Networks": [
     {
-      "Name": "🟣VIVO E 🔵TIM 01",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3gjn0etig2crb.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Name": "👉SELECIONE SUA OPERADORA👇",
+      "FLAG": "",
+      "Payload": "",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "65.8.248.59",
+      "ProxyIP": "",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -45,17 +45,17 @@
     {
       "Name": "🟣VIVO EASY SSL 03",
       "FLAG": "vivo",
-      "Payload": "BASELINE-CONTROL wss://legado.vivo.com.br/ HTTP/1.1[crlf]Host: brasil2.lanet.host[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "legado.vivo.com.br",
-      "TlsIP": "104.18.7.41",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
+      "Payload": "BASELINE-CONTROL / HTTP/1.1[crlf]Host: brasil2.lanet.host[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.18.7.41",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     },
     {
       "Name": "🟣VIVO TURBO AGILE 04",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3gjn0etig2crb.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d3hmrp25rgsz3b.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.139.182.47",
@@ -65,7 +65,7 @@
     {
       "Name": "🟣VIVO PLUS",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3gjn0etig2crb.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d3hmrp25rgsz3b.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.139.119.4",
@@ -75,7 +75,7 @@
     {
       "Name": "🔵TIM PLUS AGILE 02",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3gjn0etig2crb.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d3hmrp25rgsz3b.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "65.8.248.59",
@@ -85,7 +85,7 @@
     {
       "Name": "🔵TIM TURBO 02",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3gjn0etig2crb.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d3hmrp25rgsz3b.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "18.64.174.27",
@@ -95,7 +95,7 @@
     {
       "Name": "🔵TIM FLASH 03",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3gjn0etig2crb.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d3hmrp25rgsz3b.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "99.84.252.105",
@@ -105,7 +105,7 @@
     {
       "Name": "🔴CLARO TESTE DDDS️",
       "FLAG": "claro",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3gjn0etig2crb.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d3hmrp25rgsz3b.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "descomplica.com.br",
@@ -115,7 +115,7 @@
     {
       "Name": "🔴CLARO TESTE🆘️",
       "FLAG": "claro",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3gjn0etig2crb.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d3hmrp25rgsz3b.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "13.227.97.41",

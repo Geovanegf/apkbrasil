@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.33",
+  "Version": "1.0.34",
   "ReleaseNotes": "EVITAR ERROS MANTENHAM O APLICATIVOATUALIZADO",
   "UrlUpdate": "https://raw.githubusercontent.com/Geovanegf/apkbrasil/main/BrasilNaCopaUpd",
   "Sms": "https://raw.githubusercontent.com/Geovanegf/SmsApkBrasil/main/SmsBrasilNaCopa",
@@ -68,7 +68,17 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: d3hmrp25rgsz3b.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "108.139.119.4",
+      "ProxyIP": "65.8.214.58",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🟣VIVO AGUARDE CONEXAO",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [random=1t64r3716pe7510p07.speedup.mobi;881pp75q64d6z11057.speedup.mobi;6106lm24w6v11761a5.speedup.mobi;91c2rsa68105v71769.speedup.mobi;77lb111f216mf56131.speedup.mobi][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "13.227.126.65",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -103,12 +113,12 @@
       "Info": "Proxy"
     },
     {
-      "Name": "🔴CLARO TESTE DDDS️",
+      "Name": "🔴CLARO",
       "FLAG": "claro",
       "Payload": "GET / HTTP/1.1[crlf]Host: d3hmrp25rgsz3b.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "descomplica.com.br",
+      "ProxyIP": "52.84.83.128",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -118,7 +128,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: d3hmrp25rgsz3b.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "13.227.97.41",
+      "ProxyIP": "52.84.83.119",
       "ProxyPort": "80",
       "Info": "Proxy"
     },

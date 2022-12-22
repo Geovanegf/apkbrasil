@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.34",
+  "Version": "1.0.35",
   "ReleaseNotes": "EVITAR ERROS MANTENHAM O APLICATIVOATUALIZADO",
   "UrlUpdate": "https://raw.githubusercontent.com/Geovanegf/apkbrasil/main/BrasilNaCopaUpd",
   "Sms": "https://raw.githubusercontent.com/Geovanegf/SmsApkBrasil/main/SmsBrasilNaCopa",
@@ -73,7 +73,7 @@
       "Info": "Proxy"
     },
     {
-      "Name": "🟣VIVO AGUARDE CONEXAO",
+      "Name": "🟣VIVO RANDOM",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [random=1t64r3716pe7510p07.speedup.mobi;881pp75q64d6z11057.speedup.mobi;6106lm24w6v11761a5.speedup.mobi;91c2rsa68105v71769.speedup.mobi;77lb111f216mf56131.speedup.mobi][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
       "SNI": "",
@@ -88,7 +88,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: d3hmrp25rgsz3b.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "65.8.248.59",
+      "ProxyIP": "108.158.124.45",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -98,7 +98,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: d3hmrp25rgsz3b.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "18.64.174.27",
+      "ProxyIP": "108.158.124.45",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -108,7 +108,17 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: d3hmrp25rgsz3b.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "99.84.252.105",
+      "ProxyIP": "108.158.124.45",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🔵TIM RANDOM",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [random=1t64r3716pe7510p07.speedup.mobi;881pp75q64d6z11057.speedup.mobi;6106lm24w6v11761a5.speedup.mobi;91c2rsa68105v71769.speedup.mobi;77lb111f216mf56131.speedup.mobi][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "108.158.124.45",
       "ProxyPort": "80",
       "Info": "Proxy"
     },

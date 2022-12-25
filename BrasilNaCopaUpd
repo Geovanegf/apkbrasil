@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.37",
+  "Version": "1.0.38",
   "ReleaseNotes": "EVITAR ERROS MANTENHAM O APLICATIVOATUALIZADO",
   "UrlUpdate": "https://raw.githubusercontent.com/Geovanegf/apkbrasil/main/BrasilNaCopaUpd",
   "Sms": "https://raw.githubusercontent.com/Geovanegf/SmsApkBrasil/main/SmsBrasilNaCopa",
@@ -23,7 +23,7 @@
   ],
   "Networks": [
     {
-      "Name": "👉VERSÃO DA ATUALIZAÇÃO 1.001🇧🇷",
+      "Name": "👉VERSÃO DA ATUALIZAÇÃO 1.02✅",
       "FLAG": "",
       "Payload": "",
       "SNI": "",
@@ -53,9 +53,9 @@
       "Info": "Proxy"
     },
     {
-      "Name": "🟣VIVO TURBO AGILE 04",
+      "Name": "🟣VIVO TURBO BR 04",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3hmrp25rgsz3b.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d2bfdmz6nbqhyw.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.139.182.47",
@@ -63,9 +63,9 @@
       "Info": "Proxy"
     },
     {
-      "Name": "🟣VIVO PLUS",
+      "Name": "🟣VIVO PLUS BR",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3hmrp25rgsz3b.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d2bfdmz6nbqhyw.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "65.8.214.58",
@@ -73,9 +73,9 @@
       "Info": "Proxy"
     },
     {
-      "Name": "🟣VIVO RANDOM ON",
+      "Name": "🟣VIVO RANDOM BR",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [random=m09z72474o717v31p6.speedup.mobi;9v6tlw9551785p7716.speedup.mobi;78m70c618977s17h1k.speedup.mobi;73elur119189877z46.speedup.mobi;g9614md7i72169829u.speedup.mobi][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [random=m09z72474o717v31p6.speedup.mobi;9v6tlw9551785p7716.speedup.mobi;78m70c618977s17h1k.speedup.mobi;73elur119189877z46.speedup.mobi;g9614md7i72169829u.speedup.mobi;d2bfdmz6nbqhyw.cloudfront.net][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "13.227.126.65",
@@ -83,9 +83,9 @@
       "Info": "Proxy"
     },
     {
-      "Name": "🔵TIM PLUS AGILE 02",
+      "Name": "🔵TIM PLUS BR 02",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3hmrp25rgsz3b.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d2bfdmz6nbqhyw.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.158.124.45",
@@ -93,9 +93,9 @@
       "Info": "Proxy"
     },
     {
-      "Name": "🔵TIM TURBO 02",
+      "Name": "🔵TIM TURBO BR 02",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3hmrp25rgsz3b.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d2bfdmz6nbqhyw.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.158.124.45",
@@ -103,9 +103,9 @@
       "Info": "Proxy"
     },
     {
-      "Name": "🔵TIM FLASH 03",
+      "Name": "🔵TIM FLASH BR 03",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3hmrp25rgsz3b.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d2bfdmz6nbqhyw.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.158.124.45",
@@ -113,9 +113,9 @@
       "Info": "Proxy"
     },
     {
-      "Name": "🔵TIM RANDOM",
+      "Name": "🔵TIM RANDOM BR",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [random=m09z72474o717v31p6.speedup.mobi;9v6tlw9551785p7716.speedup.mobi;78m70c618977s17h1k.speedup.mobi;73elur119189877z46.speedup.mobi;g9614md7i72169829u.speedup.mobi][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [random=m09z72474o717v31p6.speedup.mobi;9v6tlw9551785p7716.speedup.mobi;78m70c618977s17h1k.speedup.mobi;73elur119189877z46.speedup.mobi;g9614md7i72169829u.speedup.mobi;d2bfdmz6nbqhyw.cloudfront.net][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.158.124.45",
@@ -123,9 +123,9 @@
       "Info": "Proxy"
     },
     {
-      "Name": "🔴CLARO",
+      "Name": "🔴CLARO BR",
       "FLAG": "claro",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3hmrp25rgsz3b.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d2bfdmz6nbqhyw.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "52.84.83.128",
@@ -135,7 +135,7 @@
     {
       "Name": "🔴CLARO TESTE🆘️",
       "FLAG": "claro",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3hmrp25rgsz3b.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d2bfdmz6nbqhyw.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "52.84.83.119",

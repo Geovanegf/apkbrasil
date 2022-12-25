@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.35",
+  "Version": "1.0.36",
   "ReleaseNotes": "EVITAR ERROS MANTENHAM O APLICATIVOATUALIZADO",
   "UrlUpdate": "https://raw.githubusercontent.com/Geovanegf/apkbrasil/main/BrasilNaCopaUpd",
   "Sms": "https://raw.githubusercontent.com/Geovanegf/SmsApkBrasil/main/SmsBrasilNaCopa",
@@ -75,7 +75,7 @@
     {
       "Name": "🟣VIVO RANDOM",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [random=1t64r3716pe7510p07.speedup.mobi;881pp75q64d6z11057.speedup.mobi;6106lm24w6v11761a5.speedup.mobi;91c2rsa68105v71769.speedup.mobi;77lb111f216mf56131.speedup.mobi][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [random=m09z72474o717v31p6.speedup.mobi;9v6tlw9551785p7716.speedup.mobi;78m70c618977s17h1k.speedup.mobi;73elur119189877z46.speedup.mobi;g9614md7i72169829u.speedup.mobi][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "13.227.126.65",
@@ -115,7 +115,7 @@
     {
       "Name": "🔵TIM RANDOM",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [random=1t64r3716pe7510p07.speedup.mobi;881pp75q64d6z11057.speedup.mobi;6106lm24w6v11761a5.speedup.mobi;91c2rsa68105v71769.speedup.mobi;77lb111f216mf56131.speedup.mobi][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [random=m09z72474o717v31p6.speedup.mobi;9v6tlw9551785p7716.speedup.mobi;78m70c618977s17h1k.speedup.mobi;73elur119189877z46.speedup.mobi;g9614md7i72169829u.speedup.mobi][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.158.124.45",

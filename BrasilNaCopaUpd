@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.39",
+  "Version": "1.0.40",
   "ReleaseNotes": "EVITAR ERROS MANTENHAM O APLICATIVOATUALIZADO",
   "UrlUpdate": "https://raw.githubusercontent.com/Geovanegf/apkbrasil/main/BrasilNaCopaUpd",
   "Sms": "https://raw.githubusercontent.com/Geovanegf/SmsApkBrasil/main/SmsBrasilNaCopa",
@@ -13,7 +13,7 @@
       "Name": "BR | PREMIUM",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "brasil2.lanet.host",
+      "ServerIP": "a1.donadecasa.ml",
       "CheckUser": "http://144.22.174.248:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
@@ -45,7 +45,7 @@
     {
       "Name": "🟣VIVO EASY SSL 03",
       "FLAG": "vivo",
-      "Payload": "BASELINE-CONTROL / HTTP/1.1[crlf]Host: brasil2.lanet.host[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "Payload": "BASELINE-CONTROL / HTTP/1.1[crlf]Host: a1.donadecasa.ml[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.7.41",

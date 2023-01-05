@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.41",
+  "Version": "1.0.42",
   "ReleaseNotes": "EVITAR ERROS MANTENHAM O APLICATIVOATUALIZADO",
   "UrlUpdate": "https://raw.githubusercontent.com/Geovanegf/apkbrasil/main/BrasilNaCopaUpd",
   "Sms": "https://raw.githubusercontent.com/Geovanegf/SmsApkBrasil/main/SmsBrasilNaCopa",
@@ -23,7 +23,7 @@
   ],
   "Networks": [
     {
-      "Name": "👉ESCOLHA SUA OPERADORA AQUI 0.4🇧🇷",
+      "Name": "👉ESCOLHA SUA OPERADORA AQUI 0.5✅",
       "FLAG": "",
       "Payload": "",
       "SNI": "",
@@ -55,7 +55,7 @@
     {
       "Name": "🟣VIVO TURBO BR 04",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d2bfdmz6nbqhyw.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d259sfzrirpgt4.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "108.139.182.47",
@@ -65,7 +65,7 @@
     {
       "Name": "🟣VIVO PLUS BR🇧🇷",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [random=d259sfzrirpgt4.cloudfront.net;d2bfdmz6nbqhyw.cloudfront.net][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [random=d259sfzrirpgt4.cloudfront.net;d25xrphnmprhaz.cloudfront.net][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "13.227.126.42",
@@ -75,7 +75,7 @@
     {
       "Name": "🟣VIVO RANDOM BR🇧🇷",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [random=d259sfzrirpgt4.cloudfront.net;d2bfdmz6nbqhyw.cloudfront.net][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [random=d259sfzrirpgt4.cloudfront.net;d25xrphnmprhaz.cloudfront.net][crlf]Connection: Upgrade[crlf]Upgrade: Websocket [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "13.227.126.65",
